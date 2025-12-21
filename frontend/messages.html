@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages - Portfolio</title>
+    <link rel="stylesheet" href="messages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">Portfolio</a>
+            </div>
+            <div class="nav-actions">
+                <a href="index.html" class="btn-back">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Messages Section -->
+    <section class="messages-section">
+        <div class="container">
+            <div class="messages-header">
+                <h1><i class="fas fa-envelope"></i> Contact Messages</h1>
+                <p>All received messages from the contact form</p>
+            </div>
+
+            <div class="messages-stats">
+                <div class="stat-card">
+                    <i class="fas fa-inbox"></i>
+                    <div>
+                        <h3 id="totalMessages">0</h3>
+                        <p>Total Messages</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3 id="todayMessages">0</h3>
+                        <p>Today</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="messages-container" id="messagesContainer">
+                <div class="loading" id="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading messages...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="messages.js"></script>
+</body>
+</html>
