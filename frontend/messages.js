@@ -1,5 +1,5 @@
 // API Configuration - Replace with your deployed backend URL
-const API_URL = 'https://portfolio-backend-xxxx.onrender.com'; // Change this to your backend URL
+const API_URL = 'https://portfolio1-backend-9mhi.onrender.com'; // Change this to your backend URL
 
 // DOM Elements
 const messagesContainer = document.getElementById('messagesContainer');
