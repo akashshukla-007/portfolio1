@@ -1,6 +1,5 @@
 // API Configuration - Replace with your deployed backend URL
-const API_URL = 'https://your-backend-url.onrender.com'; // Change this to your backend URL
-
+const API_URL = 'https://portfolio-backend-xxxx.onrender.com'; // You'll update this later
 // Mobile Navigation Toggle
 const navToggle = document.getElementById('navToggle');
 const navMenu = document.getElementById('navMenu');
