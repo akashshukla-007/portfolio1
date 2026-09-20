@@ -560,7 +560,98 @@ section {
     color: #721c24;
     display: block;
 }
+/* ================= RESPONSIVE CONTACT SECTION ================= */
 
+@media (max-width: 992px) {
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-details {
+        align-items: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contact {
+        padding: 70px 0;
+    }
+
+    .contact-info h3 {
+        font-size: 26px;
+    }
+
+    .contact-info p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .contact-item {
+        font-size: 15px;
+        gap: 12px;
+    }
+
+    .contact-item i {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        padding: 14px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact-info h3 {
+        font-size: 22px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 13px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+    }
+}
 /* Footer */
 .footer {
     background: var(--dark);
